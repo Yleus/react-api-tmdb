@@ -15,7 +15,7 @@ const Navbar = () => {
 
     if(!search) return
     
-    navigate(`/react-api-tmdb/search?q=${search}`)
+    navigate(`/search?q=${search}`)
     setSearch("");
   };
 
